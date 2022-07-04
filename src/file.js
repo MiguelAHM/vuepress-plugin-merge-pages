@@ -27,7 +27,9 @@ const generateFile = async (context, bundle) => {
 
   const filePath = `${PLUGIN_NAME}/${name}.md`
 
+  logger.wait(content)
   await context.writeTemp(filePath, content)
+
 
   return path.join(context.tempPath, filePath)
 }
