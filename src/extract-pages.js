@@ -4,6 +4,7 @@ const extractPages = context => {
   const { pages: original = [] } = context
 
   const pages = original.map(page => {
+    logger.wait('extracting files')
     logger.wait(page._content)
     return {
       content: page._content,
