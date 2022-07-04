@@ -1,5 +1,5 @@
 const crossPathSort = require('cross-path-sort')
-
+const logger = require('./logger')
 const extractPages = context => {
   const { pages: original = [] } = context
 
