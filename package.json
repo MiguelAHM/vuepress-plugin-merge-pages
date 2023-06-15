@@ -6,7 +6,7 @@
   "author": "Vinicius Reis <luiz.vinicius73@gmail.com>",
   "homepage": "https://github.com/vinicius73/vuepress-plugin-merge-pages",
   "repository": {
-    "url": "https://github.com/vinicius73/vuepress-plugin-merge-pages"
+    "url": "https://github.com/MiguelAHM/vuepress-plugin-merge-pages"
   },
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,7 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.7.0"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
